@@ -1,0 +1,50 @@
+.user {
+  margin-top: 8px;
+  margin-left: 1%;
+  border-radius: 2%;
+  width: 25%;
+  height: 380px;
+  background-color: #f0ebdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UserCard {
+  margin-top: 2%;
+  width: 90%;
+  height: 40px;
+  background-color: white;
+  border: 2px solid #fdf2c5;
+  display: flex;
+  align-items: center;
+}
+
+.userName {
+  font-size: 14px;
+}
+
+.userMail {
+  font-size: 8px;
+}
+
+.ImgAvatar {
+  width: 30px;
+  height: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.buttonXUser {
+  /* margin-top: 2%; */
+  margin-left: 30%;
+  height: 3vh;
+  width: 2vw;
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: bold;
+  box-shadow: 0 0 3px black;
+  font-size: medium;
+}

@@ -1,0 +1,127 @@
+.main_section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  /* padding-top: 60px; */
+  /* justify-content: center; */
+  /* gap: 8vh; */
+}
+
+.select_section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2vw;
+  /* border: 1px solid black; */
+  padding-top: 2%;
+}
+
+.select {
+  height: 6.6vh;
+  width: 20vw;
+  border-radius: 5px;
+  color: var(--gris1);
+  border-color: var(--gris2);
+  background-color: white;
+  padding-left: 1vw;
+}
+
+.input {
+  height: 6vh;
+  width: 10vw;
+  border-radius: 5px;
+  border-width: 1px;
+  color: var(--gris1);
+  border-color: var(--gris2);
+  padding-left: 1vw;
+}
+
+.input_from {
+  display: flex;
+  flex-direction: column;
+  color: #b6b6b6;
+}
+
+.input_to {
+  display: flex;
+  flex-direction: column;
+  color: #b6b6b6;
+  border-color: var(--red);
+}
+
+.label_and_select {
+  display: flex;
+  flex-direction: column;
+  color: var(--gris2);
+}
+
+.select {
+  color: var(--gris1);
+}
+.input {
+  color: var(--gris1);
+  border-color: var(--gris2);
+}
+
+.button {
+  height: 6.6vh;
+  width: 10vw;
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: bold;
+  box-shadow: 0 0 3px black;
+  font-size: medium;
+}
+
+.bloc_text {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.mustang_container {
+  margin-top: 15%;
+  width: 400px;
+}
+
+.vehicule {
+  width: 100%;
+}
+
+.BG_container {
+  /* margin-top: -135px; */
+  height: 100vh;
+  background-position: fixed;
+  /* transform: translateX(-2730px); */
+  position: absolute;
+  z-index: -1;
+  animation-name: slideCote;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+.BG_container img {
+  height: 100%;
+}
+@keyframes slideCote {
+  from {
+    transform: translate(-2000px, 0px);
+  }
+  to {
+    transform: translate(2000px, 0px);
+  }
+}
+
+.main_title {
+  color: var(--gris1);
+  font-size: 2.5rem;
+}
+
+.second_main_title {
+  color: var(--gris1);
+  padding-top: 3%;
+  font-size: 1.5rem;
+}

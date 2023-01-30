@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+}
+
+.user_name {
+  font-size: 1vw;
+  margin-right: 1vw;
+}
+
+.logo {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 3vw;
+  border-radius: 10px;
+}
+.logo img {
+  height: 5.5vw;
+  width: auto;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-right: 2vw;
+}

@@ -1,0 +1,11 @@
+.wrong_password {
+  color: red;
+}
+
+.signIn_show_button {
+  margin-left: 0.5vw;
+}
+.signIn_global {
+  position: relative;
+  margin-top: 20vh;
+}

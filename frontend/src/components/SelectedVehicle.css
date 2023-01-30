@@ -1,0 +1,7 @@
+.selected_vehicle_card {
+  width: 35vw;
+  height: 75vh;
+  position: fixed;
+  right: 13vw;
+  margin-top: 5vh;
+}

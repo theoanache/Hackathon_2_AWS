@@ -1,0 +1,104 @@
+.loginPage {
+  height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.loginTitleSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginTitle {
+  color: var(--gris1);
+  font-size: 2.5rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginFormLabel {
+  display: block;
+  color: var(--red);
+  font-size: 0.875rem;
+  width: 30vw;
+  font-weight: bold;
+}
+
+.loginFormInput {
+  appearance: none;
+  border-radius: 0.25rem;
+  border: none;
+  width: 100%;
+  margin-top: 0.3rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  background-color: rgb(229 231 235);
+  color: rgb(38 38 38);
+  line-height: 1.25;
+}
+
+.loginFormInput:focus {
+  outline: none;
+  border-color: var(--red);
+  box-shadow: none;
+}
+
+.loginFormButton {
+  position: absolute;
+  top: 0.5rem;
+  width: 100%;
+}
+
+.loginButtonIdentification {
+  background-color: var(--red);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  color: white;
+  font-size: 1.2rem;
+  width: 103%;
+  margin-top: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.loginButtonIdentification:hover {
+  background-color: red;
+}
+
+.loginButtonIdentification:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.loginNoAccountText {
+  color: var(--red);
+  margin-top: 2vh;
+}
+
+.loginNoAccountTextLink a {
+  text-decoration: none;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.loginBG {
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
